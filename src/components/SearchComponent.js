@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import React from "react";
 
-const CityComponent = ({ setSearch, fetchWeather }) => {
+const SearchComponent = ({ setSearch, fetchWeather }) => {
   return (
     <>
     <Container>
@@ -61,4 +61,4 @@ const SearchTitle = styled.span`
   
 `;
 
-export default CityComponent;
+export default SearchComponent;
